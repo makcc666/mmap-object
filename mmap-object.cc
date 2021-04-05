@@ -619,4 +619,4 @@ NAN_MODULE_INIT(SharedMap::Init) {
   Nan::Set(target, Nan::New("Open").ToLocalChecked(), open_fun);
 }
 
-NODE_MODULE(mmap_object, SharedMap::Init)
+NAN_MODULE_WORKER_ENABLED(mmap_object, SharedMap::Init)
