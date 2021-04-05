@@ -5,7 +5,8 @@
   "types": "mmap-object.d.ts",
   "scripts": {
     "test": "mocha test/test-*",
-    "install": "node-pre-gyp install --fallback-to-build"
+    "install": "node-pre-gyp install --fallback-to-build",
+    "prepublishOnly": "node-pre-gyp rebuild && node-pre-gyp package"
   },
   "binary": {
     "module_name": "mmap-object",
