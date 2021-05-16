@@ -11,9 +11,9 @@
   "binary": {
     "module_name": "mmap-object",
     "module_path": "./lib",
-    "host": "https://github.com/allenluce/mmap-object/releases/download/{version}"
+    "host": "https://github.com/makcc666/mmap-object/releases/download/{version}"
   },
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "Allen Luce",
   "repository": {
     "type": "git",
