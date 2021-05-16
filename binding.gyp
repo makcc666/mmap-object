@@ -1,8 +1,8 @@
 {
   "variables": {
     "cflags_cc": [
-      "-Wall",
-      "-Werror",
+      #"-Wall",
+      #"-Werror",
       "-O3",
       "-fexceptions",  # Boost on Linux wants this
       "-frtti"         # And this too.
