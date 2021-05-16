@@ -17,7 +17,7 @@
   "author": "Allen Luce",
   "repository": {
     "type": "git",
-    "url": "https://github.com/allenluce/mmap-object.git"
+    "url": "https://github.com/makcc666/mmap-object.git"
   },
   "license": "ISC",
   "gypfile": true,
